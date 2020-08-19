@@ -15,6 +15,10 @@ export const AddTrans=() =>
             text,
             amount:+amount
         }
+        if (text=='')
+        {
+          return;
+        }
         addtrans(newtrans);
     }
     return(<>
