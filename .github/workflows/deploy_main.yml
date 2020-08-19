@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: Deploying on surge
-      run: surge ./   whispering-sugar.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./  guiltless-number.surge.sh --token ${{secrets.SURGE_TOKEN}}
