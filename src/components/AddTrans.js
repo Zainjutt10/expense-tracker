@@ -15,11 +15,11 @@ export const AddTrans=() =>
             text,
             amount:+amount
         }
-        if (text=='')
+        if (amount!==0)
         {
-          return;
+          addtrans(newtrans);
         }
-        addtrans(newtrans);
+       
     }
     return(<>
         <h3>Add new transaction</h3>
